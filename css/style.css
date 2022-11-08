@@ -5,7 +5,11 @@
 
 header {
     background-color: black;
-    padding: 30px 0 29px 0;
+    padding: 24px 0 ;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 
 
 }
@@ -193,7 +197,7 @@ background-image: url("../images/geo.svg");
 }
 .holder{
     margin: auto;
-    max-width: 441px;
+    max-width: 1168px;
 }
 
 .holder h2{
@@ -214,21 +218,12 @@ background-image: url("../images/geo.svg");
     text-align: center;
     color: #C0C0C0;
     padding-top: 15px;
+    margin-bottom: 87px;
 }
 .flx_company{
-    align-items: center;
     display:flex;
     justify-content: space-around;
-
-
-
-}
-.flx_company div {
     align-items: center;
-    padding-top: 111px;
-    margin-right: 109px;
-
-
 
 }
 .star {
@@ -249,6 +244,7 @@ background-image: url("../images/geo.svg");
     background-color: #000000;
     padding-top: 113px;
     padding-bottom: 119px;
+    text-align: center;
 }
 .box{
     margin: auto;
@@ -260,7 +256,6 @@ background-image: url("../images/geo.svg");
     font-weight: 400;
     font-size: 40px;
     line-height: 42px;
-    text-align: center;
     color: #FFFFFF;
 }
 .box p {
@@ -269,7 +264,6 @@ background-image: url("../images/geo.svg");
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
-    text-align: center;
     color: #C0C0C0;
     padding-top: 15px;
     padding-bottom: 20px;
