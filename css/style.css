@@ -24,7 +24,7 @@ header {
     justify-content: space-between;
     align-content: center;
 }
-#navbar {
+.navbar {
     list-style: none;
     display: flex;
 }
@@ -59,8 +59,8 @@ header nav li {
 .background_img {
     background-image: url('../images/bg_image.jpg');
     background-size: cover;
-    height: calc(100vh - 83px);
     display: flex;
+    height: calc(100vh - 83px);
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 71px;
@@ -283,6 +283,7 @@ background-image: url("../images/geo.svg");
     border-radius: 14px;
     text-decoration: none;
     display: inline-flex;
+    align-items: center;
 
 }
 .get_touch:before {
