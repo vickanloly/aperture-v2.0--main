@@ -15,14 +15,13 @@ header {
 }
 .container{
     background-color: black;
-    padding: 30px 0 29px 0;
     max-width: 1400px;
     margin: auto;
 }
 .dflex {
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
 }
 .navbar {
     list-style: none;
@@ -224,6 +223,16 @@ background-image: url("../images/geo.svg");
     display:flex;
     justify-content: space-around;
     align-items: center;
+
+}
+.flx_company a{
+    display: inline-block;
+    max-width: 128px;
+
+}
+.flx_company img{
+    display: block;
+    width: 100%;
 
 }
 .star {
