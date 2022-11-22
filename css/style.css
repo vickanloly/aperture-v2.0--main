@@ -319,17 +319,19 @@ color: #FFFFFF;
 }
 
 .faq{
-    background-color: darkgrey;
+    background-color: dimgrey;
     padding: 70px 0;
 }
 
-.box1{
-    margin: auto;
-    max-width: 1200px;
-}
+.faq .container{
+    display: flex;
+    justify-content: space-between;
 
+}
 .faq .text {
     max-width: 500px;
+    padding-right: 50px;
+    box-sizing: border-box;
 }
 
 .faq .accordion {
@@ -354,3 +356,4 @@ color: #FFFFFF;
     line-height: 12px;
     color: #FFFFFF;
 }
+
