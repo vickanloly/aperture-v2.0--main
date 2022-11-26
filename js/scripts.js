@@ -1,26 +1,27 @@
-$(document).ready(function(){
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:0,
-    nav:true,
-    navText: [ '', ' ' ],
-    autoplay: true,
-    autoplayTimeout:2000,
-    responsive:{
-        0:{
-            items:2
-        },
 
-        1000:{
-            items:5
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:0,
+        nav:true,
+        navText: [ '', ' ' ],
+        autoplay: true,
+        autoplayTimeout:2000,
+        responsive:{
+            0:{
+                items:2
+            },
+
+            1000:{
+                items:5
+            }
         }
-    }
-});
+    });
     $( function() {
         $( "#accordion" ).accordion();
     } );
 });
-
 jQuery(document).ready(function($){
     //toggle 3d navigation
     $('.cd-3d-nav-trigger').on('click', function(){
