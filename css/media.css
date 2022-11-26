@@ -1,4 +1,17 @@
+@media screen and (max-width: 1117px) {
+    .tools .position_bg{
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
 
+}
+
+@media screen and (max-width: 921px) {
+    .container {
+        padding-left: 3px;
+    }
+}
 @media screen and (max-width: 887px) {
 
     .item {
@@ -10,16 +23,16 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {*/
 
-    .item {
-        margin-right: 24px;
-        font-size:12px;
-    }
-    .item_fltrs {
-        font-size: 12px;
-    }
-}
+/*    .item {*/
+/*        margin-right: 24px;*/
+/*        font-size:12px;*/
+/*    }*/
+/*    .item_fltrs {*/
+/*        font-size: 12px;*/
+/*    }*/
+/*}*/
 
 @media screen and (max-width: 701px) {
 
@@ -36,7 +49,7 @@
     }
 
 }
-@media screen and (max-width: 654px) {
+@media screen and (max-width: 768px) {
     .cd-3d-nav-trigger {
         display: inline-block;
     }

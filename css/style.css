@@ -620,6 +620,7 @@ main.nav-is-visible {
     line-height: 42px;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 15px;
 }
 .what_we_do p{
     font-family: "Poppins", sans-serif;
@@ -629,4 +630,103 @@ main.nav-is-visible {
     line-height: 30px;
     text-align: center;
     color: #C0C0C0;
+    margin-bottom: 47px;
+}
+.flex_wrap{
+    flex-wrap: wrap;
+
+}
+.what_we_do article {
+    max-width: 576px;
+    position: relative;
+}
+.what_we_do article img{
+    width: 100%;
+    display: block;
+    margin-bottom: 16px;
+}
+.what_we_do article .discript{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    padding-right: 30px;
+}
+.what_we_do .discript h4{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.what_we_do .discript p{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.tools{
+    background-color: #000000;
+    min-height: 540px;
+    position: relative;
+}
+.tools .position_bg {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0%;
+    top:0%;
+    background-image: url("../images/bgimg.jpg");
+    background-size: cover;
+}
+
+.tools .content {
+    max-width: 540px;
+}
+.content h4{
+    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+
+.content h3{
+    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.content p{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.tools .container {
+    display: flex;
+    align-items: center;
+    min-height: 540px;
 }
